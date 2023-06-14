@@ -1,0 +1,25 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-link {
+  display: inline-block;
+  font-weight: 600;
+  padding: 5px;
+  color: rgb(0, 0, 0);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #313391;
+}
+.nav-link.nav-link--active {
+  color: #3a3caf;
+}
+
+.nav-link.nav-link--disabled {
+  color: #313391;
+}
